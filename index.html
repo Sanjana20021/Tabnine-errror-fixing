@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tourism Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f39c12;
+            padding: 20px 0;
+            text-align: center;
+            /* Added padding for better spacing */
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px; /* Adjusted margin for navigation links */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .destination {
+            margin-top: 40px;
+            border-top: 2px solid #f39c12;
+            padding-top: 40px;
+            text-align: center;
+        }
+
+        .destination img {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .destination h2 {
+            color: #f39c12;
+        }
+
+        .form-container {
+            text-align: center;
+            margin-top: 20px; /* Adjusted margin for better spacing */
+        }
+
+        .form-container input[type="text"],
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#popular">Popular Destinations</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+        <h1>Welcome to Our Travel and Tourism Company</h1>
+        <p>Discover amazing destinations around the world with us!</p>
+    </div>
+
+    <div class="container" id="popular">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+            <img src="https://via.placeholder.com/600x400" alt="Destination Image">
+            <h2>Paris, France</h2>
+            <p>Paris, the city of love, offers iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and
+                Louvre Museum.</p>
+            <p>Book your trip now!</p>
+        </div>
+        <div class="form-container">
+            <h3>Book Your Trip</h3>
+            <form>
+                <input type="text" placeholder="Name">
+                <br>
+                <input type="text" placeholder="Email">
+                <br>
+                <textarea placeholder="Message"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <div class="form-container">
+            <h3>Get in Touch</h3>
+            <form>
+                <input type="text" placeholder="Name">
+                <br>
+                <input type="text" placeholder="Email">
+                <br>
+                <textarea placeholder="Message"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
